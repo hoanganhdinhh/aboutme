@@ -1,0 +1,164 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Me - Hoang Anh</title>
+        <h1 class="heading">About Me</h1>
+        <img class="avatar" src="images/avt.jpg" alt="Hoang Anh Dep Trai">
+        
+    </head>
+    <body>
+        <p class="p1">
+            <h3>My Information</h3>
+            <p>
+                Name: Dinh Nguyen Hoang Anh<br>
+                School name: University of Greenwich Viet Nam<br>
+                Class: COS1203
+            </p>
+            <img src="images/mail.png" width="30" height="30" alt="dinhnguyenhoanganh2005@gmail.com"> <a href="mailto:dinhnguyenhoanganh2005@gmail.com">dinhnguyenhoanganh2005@gmail.com</a>
+            <br>
+            <img src="images/facebook.png" width="30" height="30" alt="https://www.facebook.com/hoanganhdinhhh"> <a href="https://www.facebook.com/hoanganhdinhhh">hoanganhdinhhh</a>
+            <br>
+            <img src="images/insta.png" width="30" height="30" alt="https://www.instagram.com/hoanganhdinhh"> <a href="https://www.instagram.com/hoanganhdinhh">hoanganhdinhh</a>
+            <br>
+            <img src="images/web.jpg" width="30" height="30" alt="hoanganhdinh.com"> <a href="https://hoanganhdinh.com">hoanganhdinh.com</a>
+        </p>
+        <p class="p2" style="position: relative;">
+            <table style="width: 100%; text-align: center;" >
+                <tr>
+                    <th>Subject code</th>
+                    <th>Subject Name</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>COMP1753</td>
+                    <td>Programming Foundations</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>COMP1821</td>
+                    <td>Principles of Software Engineering</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>COMP1845</td>
+                    <td>Systems Development</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>COMP1809</td>
+                    <td>Introduction to Computer Science and its Application</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MATH1179</td>
+                    <td>Mathematics for Computer Science</td>
+                    <td></td>
+                </tr>
+                </tr>
+                    <td>COMP1589</td>
+                    <td>Computer Systems and Internet Technologies</td>
+                    <td>Not Yet</td>
+                </tr>
+                </tr>
+                    <td>COMP1843</td>
+                    <td>Principles of Security</td>
+                    <td>Not Yet</td>
+                </tr>
+                </tr>
+                    <td>COMP1752</td>
+                    <td>Object Oriented Programming</td>
+                    <td>Not Yet</td>
+                </tr>
+            </table>
+            <br>
+            <button style="position: relative; right: 20px;" id="btn" onclick="alert('Nope')">Show Marks</button>
+        </p>
+        <br
+
+        <form>
+            <h3>Help me improve</h3>
+            <label for="fname">First Name:</label> <br>
+            <input type="text" name="FirstName" placeholder="Anh"><br>
+            <label for="lname">Last Name:</label> <br>
+            <input type="text" name="LastName" placeholder="Dinh"> <br>
+            <label for="Comment">Comment:</label> <br>
+            <input type="text" name="Comment" placeholder="Typing something"><br>
+            <label for="Email">Email:</label> <br>
+            <input type="email" name="email" placeholder="example@gmail.com"><br>
+            <label for="Phone number">Phone Number:</label> <br>
+            <input type="tel" name="phone number" placeholder="+84 0912345679" minlength="10" maxlength="10" ><br>
+            <label for="Date:">Date:</label> <br>
+            <input type="date" name="date" placeholder="dd/mm/yyyy"><br>
+            <button type="submit" onclick="alert('Thanks For Submitting!')">Submit</button>
+        </form>
+    </body>
+
+    <script>
+        var message = "Website Đang Thử Nghiệm";
+        //alert(message);
+        console.log("Testing");
+
+    </script>
+
+    <style>
+        body{
+            background-color: moccasin;
+        }
+        .avatar{
+            height: 250px;
+            width: 250px;
+            border-radius: 175px;
+            border: solid black 3px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .p1{
+            text-align: left;
+            text-decoration: none;
+            color: black;
+        }
+        .p2{
+            text-align: right;
+        }
+        .heading {
+            font-style: normal;
+            color: black;
+            text-align: center;
+            font-size: 40px;
+        }
+        .p1 {
+            font-size: 20px;
+            font-style: normal;
+            color: black;
+        }
+
+        /* .avatar::before{
+            content: '';
+            position: absolute;
+            width: 100px;
+            background-image: linear-gradient(180deg, rgb(0,183,255), rgb(255,48,255));
+            height: 130%;
+            animation: animate 4s linear infinite;
+            transition: all 0.3s linear;
+        }
+        .avatar::after{
+            content: '';
+            position: absolute;
+            background-color: #07182e;
+            inset: 5px;
+            border-radius: 15px;
+        }
+
+        @keyframes animate{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            } */
+    </style>
+
+</html>
